@@ -53,7 +53,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
-            href="hhttps://www.linkedin.com/in/abhishek-upadhyay-174710246/"
+            href="https://www.linkedin.com/in/abhishek-upadhyay-174710246/"
             aria-label="github"
             className="link link--icon"
             target="_blank"
@@ -62,7 +62,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/11Jr_dcB47Li27-yCYht0Cq0BNXMQo3cJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1nlqCpTfuJ1iCWKtsul144pqgDOWwJC9U/view"
             aria-label="github"
             className="link link--icon"
             target="_blank"
