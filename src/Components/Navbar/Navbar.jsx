@@ -15,6 +15,16 @@ export const Navbar = () => {
     if (element) {
       element.scrollIntoView();
     }
+
+    setShowNavList(!showNavList);
+  };
+  const toggleNavListresume = (id) => {
+    var element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView();
+    }
+
+    window.location.assign("https://drive.google.com/file/d/1nlqCpTfuJ1iCWKtsul144pqgDOWwJC9U/view?usp=sharing");
     setShowNavList(!showNavList);
   };
   return (
@@ -71,8 +81,9 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
-              href="https://drive.google.com/file/d/1nlqCpTfuJ1iCWKtsul144pqgDOWwJC9U/view?usp=sharing"
-              onClick={toggleNavList}
+              href="./Abhishek_Upadhyay_Resume (4).pdf"
+              download={true}
+              onClick={toggleNavListresume}
               className="link link--nav"
               target="_blank"
               rel="noreferrer"
