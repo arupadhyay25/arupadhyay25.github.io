@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.dda9862b.chunk.css",
-    "main.js": "/static/js/main.1c4cbfe5.chunk.js",
-    "main.js.map": "/static/js/main.1c4cbfe5.chunk.js.map",
+    "main.css": "/static/css/main.e54571c2.chunk.css",
+    "main.js": "/static/js/main.418126ff.chunk.js",
+    "main.js.map": "/static/js/main.418126ff.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c9b1da0f.js",
     "runtime-main.js.map": "/static/js/runtime-main.c9b1da0f.js.map",
     "static/css/2.95d02a1e.chunk.css": "/static/css/2.95d02a1e.chunk.css",
@@ -10,11 +10,10 @@
     "static/js/2.f6d8b95e.chunk.js.map": "/static/js/2.f6d8b95e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.95d02a1e.chunk.css.map": "/static/css/2.95d02a1e.chunk.css.map",
-    "static/css/main.dda9862b.chunk.css.map": "/static/css/main.dda9862b.chunk.css.map",
+    "static/css/main.e54571c2.chunk.css.map": "/static/css/main.e54571c2.chunk.css.map",
     "static/js/2.f6d8b95e.chunk.js.LICENSE.txt": "/static/js/2.f6d8b95e.chunk.js.LICENSE.txt",
     "static/media/DreamBaths.48ef4b1f.JPG": "/static/media/DreamBaths.48ef4b1f.JPG",
     "static/media/MyFitnessPal App.65aae90b.JPG": "/static/media/MyFitnessPal App.65aae90b.JPG",
-    "static/media/bellavita.f5acbe90.jpg": "/static/media/bellavita.f5acbe90.jpg",
     "static/media/betrix24.a6a3b600.jpg": "/static/media/betrix24.a6a3b600.jpg",
     "static/media/eligant.163bbf76.JPG": "/static/media/eligant.163bbf76.JPG"
   },
@@ -22,7 +21,7 @@
     "static/js/runtime-main.c9b1da0f.js",
     "static/css/2.95d02a1e.chunk.css",
     "static/js/2.f6d8b95e.chunk.js",
-    "static/css/main.dda9862b.chunk.css",
-    "static/js/main.1c4cbfe5.chunk.js"
+    "static/css/main.e54571c2.chunk.css",
+    "static/js/main.418126ff.chunk.js"
   ]
 }
