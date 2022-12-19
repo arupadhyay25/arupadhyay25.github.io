@@ -24,7 +24,7 @@ export const Navbar = () => {
       element.scrollIntoView();
     }
 
-    window.location.assign("https://drive.google.com/file/d/1nlqCpTfuJ1iCWKtsul144pqgDOWwJC9U/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1nlqCpTfuJ1iCWKtsul144pqgDOWwJC9U/view?usp=sharing");
     setShowNavList(!showNavList);
   };
   return (
