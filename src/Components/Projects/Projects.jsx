@@ -9,6 +9,7 @@ import {
   SiSlickpic,
   SiMongodb,
   SiExpress,
+  SiNextdotjs,
 } from "react-icons/si";
 import { DiBootstrap } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
@@ -16,6 +17,8 @@ import MyFitnessPa_App_Clone from "./Images/MyFitnessPal App.JPG";
 import betrix24 from "./Images/betrix24.jpg";
 import DreamBaths from "./Images/DreamBaths.JPG";
 import eligant from "./Images/eligant.JPG";
+import InsightCentral from "./Images/Insight-Central.JPG";
+import Insight from "./Images/Insight.png";
 
 export const Projects = () => {
   return (
@@ -24,7 +27,54 @@ export const Projects = () => {
         <h2 className="section__title different" data-aos="fade-right">
           Projects
         </h2>
-        {/* ---------------0-------------------- */}
+        {/* ---------------1-------------------- */}
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img src={Insight} alt="Mail Chimp" />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>
+                Insight-Central <br /> (Collaborative)
+              </h2>
+              <p>
+                Insight-Central is an Blogging website where user can read and
+                write posts in various categories.
+              </p>
+              <div>
+                <SiNextdotjs />
+                <SiMongodb />
+                <SiExpress />
+                <SiHtml5 />
+                <SiCss3 />
+                <IoLogoJavascript />
+              </div>
+              <div>
+                <a
+                  href="https://insight-central.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/arupadhyay25/Insight-Central"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* ---------------2-------------------- */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
@@ -76,7 +126,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        {/* ---------------1-------------------- */}
+        {/* ---------------3-------------------- */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
@@ -96,13 +146,12 @@ export const Projects = () => {
                 <br />
               </p>
               <div>
-                <SiHtml5 />
-                <SiCss3 />
                 <FaReact />
+                <SiHtml5 />
+                <SiExpress />
+                <SiMongodb />
+                <SiCss3 />
                 <IoLogoJavascript />
-                <SiReactrouter />
-                <SiNpm />
-                <SiSlickpic />
               </div>
               <div>
                 <a
@@ -127,7 +176,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-        {/* ---------------2-------------------- */}
+        {/* ---------------4-------------------- */}
         <div className="projects_container">
           <div className="project">
             <div className="project_videocontainer">
@@ -145,9 +194,9 @@ export const Projects = () => {
                 Carbs, and Protein.
               </p>
               <div>
+                <FaReact />
                 <SiHtml5 />
                 <SiCss3 />
-                <FaReact />
                 <IoLogoJavascript />
                 <SiReactrouter />
                 <SiNpm />
@@ -176,50 +225,6 @@ export const Projects = () => {
           </div>
         </div>
         {/* ---------------3-------------------- */}
-        <div className="projects_container">
-          <div className="project">
-            <div className="project_videocontainer">
-              <div data-aos="fade-right">
-                <img src={betrix24} alt="Mail Chimp" />
-              </div>
-            </div>
-            <div className="project_information" data-aos="fade-right">
-              <h2>
-                Betrix24 App Clone <br /> (Collaborative)
-              </h2>
-              <p>
-                Clone of the popular website that is an all-in-one free platform
-                to manage your team.
-              </p>
-              <div>
-                <SiHtml5 />
-                <SiCss3 />
-                <IoLogoJavascript />
-                <DiBootstrap />
-              </div>
-              <div>
-                <a
-                  href="https://betrix24.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline onbt">
-                    See this Live
-                  </span>
-                </a>
-                <a
-                  href="https://github.com/arupadhyay25/evil-jellyfish-2990"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span type="button" className="btn btn--outline">
-                    View Code
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );
