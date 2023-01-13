@@ -27,11 +27,17 @@
 .phone:hover {
   color: rgb(49, 236, 49);
 }
+.label{
+  font-size: 20px;
+}
 @media (max-width: 600px) {
   .contactcontainer svg {
     font-size: 2em;
   }
   .contactcontainer svg:hover {
     font-size: 3rem;
+  }
+  .label{
+    font-size: 10px;
   }
 }

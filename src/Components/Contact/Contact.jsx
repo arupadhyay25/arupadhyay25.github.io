@@ -25,7 +25,7 @@ export const Contact = () => {
               <FaLinkedin className="linkedin" />
             </a>
             <br />
-            <label>Linkedin</label>
+            <label className="label">Linkedin</label>
           </span>
           <span style={{ textAlign: "center", display: "grid" }}>
             <a
@@ -35,7 +35,7 @@ export const Contact = () => {
             >
               <VscGithub className="github" />
             </a>
-            <label>Linkedin</label>
+            <label className="label">Github</label>
           </span>
           <span style={{ textAlign: "center", display: "grid" }}>
             <a
@@ -45,7 +45,7 @@ export const Contact = () => {
             >
               <CgMail className="email" />
             </a>
-            <label>GitHub</label>
+            <label className="label">G-Mail</label>
           </span>
           <span style={{ textAlign: "center", display: "grid" }}>
             <a
@@ -55,13 +55,13 @@ export const Contact = () => {
             >
               <BsInstagram className="twitter" />
             </a>
-            <label>InstaGram</label>
+            <label className="label">InstaGram</label>
           </span>
           <span style={{ textAlign: "center", display: "grid" }}>
             <a href="tel:+919637162370" target="_blank" rel="noreferrer">
               <BsFillTelephoneFill className="phone" />
             </a>
-            <label>+91 9637162370</label>
+            <label className="label">+91 9637162370</label>
           </span>
         </div>
       </div>
